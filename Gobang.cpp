@@ -89,7 +89,7 @@ int main ()
 		}
 		if (win==1)
 		{
-			printf ("Player %d is the winner!",player);
+			printf ("Player %d is the winner!\n",player);
 			system ("pause");
 			break;
 		}
