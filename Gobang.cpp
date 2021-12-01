@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
 int main ()
@@ -89,6 +90,7 @@ int main ()
 		if (win==1)
 		{
 			printf ("Player %d is the winner!",player);
+			system ("pause");
 			break;
 		}
 		player=3-player;
